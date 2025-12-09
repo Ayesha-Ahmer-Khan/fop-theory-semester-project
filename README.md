@@ -1,5 +1,7 @@
 my fundamentals of computer programing end semester project
+
 Project Tittle: Personal Planner and Productivity Calculator
+
 Problem Statement:
 In modern life, managing tasks, habits, and study schedules efficiently can be challenging. Many
 students and professionals struggle with tracking their daily activities, monitoring progress, and
