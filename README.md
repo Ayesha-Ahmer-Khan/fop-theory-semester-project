@@ -37,3 +37,25 @@ Key Concepts Used:
 •	Pass by Reference: For updating task count dynamically (int &totalTasks).
 •	Ternary Operator: For calculating productivity score.
 
+# AI Personal Planner & Habit Tracker - Flowchart
+
+```mermaid
+graph TD
+    A([Start]) --> B{Login}
+    B -->|Success| C[Dashboard Menu]
+    B -->|Fail| D[Access Denied] --> Z([End])
+
+    C --> E{Choice?}
+    E -->|1| F[Add Task: Input title, deadline, set completed=false, increment totalTasks] --> C
+    E -->|2| G[View Tasks: If none, print 'No tasks'; Else list tasks with status] --> C
+    E -->|3| H[Mark Task Done: Input index, if valid set completed=true] --> C
+    E -->|4| I[Log Study Hours: Input minutes for 7 days × 3 sessions] --> C
+    E -->|5| J[Show Study Report: Print total minutes per day] --> C
+    E -->|6| K[Calculate Score: completed × 5, cap at 100; Print score] --> C
+    E -->|7| L[Goodbye] --> Z
+    E -->|Invalid| M[Print 'Invalid Choice'] --> C
+
+    subgraph Unused
+        N[Habit Struct: Defined but not used]
+    end
+
