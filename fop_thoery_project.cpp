@@ -3,11 +3,6 @@
 using namespace std;
 
 //struct defs
-struct Habit {
-    string name;
-    int streak;
-    float minutes;
-};
 struct Task {
     string title;
     string deadline;
@@ -193,4 +188,5 @@ float calculateScore(Task tasks[], int taskTotal){
 void line() {
     cout << "----------------------------------------\n";
 }
+
 
