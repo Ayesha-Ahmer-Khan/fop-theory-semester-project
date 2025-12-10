@@ -1,4 +1,4 @@
-FUNDAMENTALS OF COMPUTER PROGRAMMING (THOERY)
+FUNDAMENTALS OF COMPUTER PROGRAMMING (THEORY)
 
 📌 Project Title
 
@@ -6,74 +6,80 @@ Personal Planner and Productivity Calculator
 
 📝 Problem Statement
 
-In modern life, managing tasks, habits, and study schedules efficiently can be challenging. Students and professionals often struggle with tracking their daily activities, monitoring progress, and staying productive.
+Managing tasks, habits, and study schedules efficiently can be challenging in modern life. Students and professionals often struggle with:
 
-This project aims to build a console-based personal planner that helps users:
+Tracking daily activities
 
-Keep track of tasks and their completion status
+Monitoring progress
 
-Log study hours daily (Mon–Sun, 3 sessions/day)
+Staying productive
 
-Generate weekly study reports
+This project aims to develop a console-based personal planner that helps users:
 
-Calculate productivity scores based on completed tasks
+✔️ Keep track of tasks and their completion status
 
-The system provides a simple, menu-driven interface for easy navigation and productivity management.
+✔️ Log study hours daily (Mon–Sun, 3 sessions/day)
+
+✔️ Generate weekly study reports
+
+✔️ Calculate productivity scores based on completed tasks
+
+The system uses a simple, menu-driven interface for smooth navigation and effective productivity management.
 
 🎯 Objectives
 1. User Authentication
 
-Implement a simple login system to secure access.
+Implement a basic login system to secure access.
 
 2. User-Friendly Interface
 
-Provide a clean, menu-based console interface.
+Clean, menu-based console navigation for ease of use.
 
 3. Task Management
 
 Add new tasks
 
-View existing tasks
+View all tasks
 
 Mark tasks as completed
 
 4. Study Hours Tracking
 
-Log study hours for each day (Mon–Sun) with 3 sessions
+Log study hours for each day (Mon–Sun, 3 sessions/day)
 
-Generate weekly reports to monitor consistency
+Generate weekly study reports to monitor consistency
 
 5. Productivity Calculation
 
-Calculate productivity score based on completed tasks (using ternary operator).
+Compute productivity score based on completed tasks (using the ternary operator)
 
 🛠️ Code and Tools
 Programming Language
 
 C++
 
-IDE/Compiler Used
+IDE / Compiler
 
 Dev C++
 
 Libraries Used
 
-<iostream> → For input/output operations
+<iostream> — For input/output
 
-<string> → For handling string data (task titles, deadlines)
+<string> — For handling strings, such as task titles and deadlines
 
 📚 Key Concepts Used
-• Structures (struct)
+🔹 Structures (struct)
 
-Used for organizing tasks, habits, etc.
+Used for organizing data like tasks, habits, etc.
 
-• Functions
+🔹 Functions
 
-Modular approach to separate different features like:
+Program is divided into modular functions such as:
 
-login
+login()
 
-dashboard
+dashboard()
 
 addTask()
 
@@ -81,17 +87,17 @@ viewTasks()
 
 markTaskDone()
 
-• Arrays
+🔹 Arrays
 
 Used to store:
 
-Tasks
+Task lists
 
-Study hours (7×3 matrix)
+Study hours in a 7×3 matrix
 
-• Loops
+🔹 Loops
 
-For iterating:
+Used to iterate through:
 
 Days
 
@@ -99,25 +105,30 @@ Study sessions
 
 Tasks
 
-• Conditional Statements
+🔹 Conditional Statements
 
 Used for:
 
 Login validation
 
-Checking task completion
+Marking tasks as completed
 
-Menu navigation
+Controlling menu flow
 
-• Pass by Reference
+🔹 Pass by Reference
 
 Example: int &totalTasks
-Used so the updated task count is reflected everywhere in the program.
 
-• Ternary Operator
+Ensures updated values are reflected throughout the program.
 
-Used for simple productivity score calculations.
+🔹 Ternary Operator
+
+Used for:
+
+Quick productivity score calculations
 
 📌 Summary
 
-This project provides a beginner-friendly but functional personal productivity system with real-world applications. It uses essential C++ concepts such as structures, arrays, functions, and decision-making to create a useful planner tool.
+This project is a beginner-friendly yet practical productivity management tool.
+It demonstrates essential C++ concepts such as structures, functions, arrays, loops, conditionals, and references, all while solving a real-world problem.
+The planner helps users stay organized, track their progress, and boost productivity through a simple and intuitive console application.
