@@ -1,10 +1,10 @@
-FUNDAMENTALS OF COMPUTER PROGRAMMING (THEORY)
+**FUNDAMENTALS OF COMPUTER PROGRAMMING (THEORY)**
 
-📌 Project Title
+**📌 Project Title**
 
 Personal Planner and Productivity Calculator
 
-📝 Problem Statement
+**📝 Problem Statement**
 
 Managing tasks, habits, and study schedules efficiently can be challenging in modern life. Students and professionals often struggle with:
 
@@ -26,16 +26,17 @@ This project aims to develop a console-based personal planner that helps users:
 
 The system uses a simple, menu-driven interface for smooth navigation and effective productivity management.
 
-🎯 Objectives
-1. User Authentication
+**🎯 Objectives**
+
+_1. User Authentication_
 
 Implement a basic login system to secure access.
 
-2. User-Friendly Interface
+_2. User-Friendly Interface_
 
 Clean, menu-based console navigation for ease of use.
 
-3. Task Management
+_3. Task Management_
 
 Add new tasks
 
@@ -43,32 +44,30 @@ View all tasks
 
 Mark tasks as completed
 
-4. Study Hours Tracking
+_4. Study Hours Tracking_
 
 Log study hours for each day (Mon–Sun, 3 sessions/day)
 
 Generate weekly study reports to monitor consistency
 
-5. Productivity Calculation
+_5. Productivity Calculation_
 
 Compute productivity score based on completed tasks (using the ternary operator)
 
-🛠️ Code and Tools
-Programming Language
+**🛠️ Code and Tools**
 
-C++
+_Programming Language:_ C++
 
-IDE / Compiler
+_IDE / Compiler_: Dev C++
 
-Dev C++
-
-Libraries Used
+_Libraries Used_:
 
 <iostream> — For input/output
 
 <string> — For handling strings, such as task titles and deadlines
 
-📚 Key Concepts Used
+**📚 Key Concepts Used**
+
 🔹 Structures (struct)
 
 Used for organizing data like tasks, habits, etc.
